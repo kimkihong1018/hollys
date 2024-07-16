@@ -13,4 +13,10 @@ $(function(){
         autoplaySpeed:2000,
         adaptiveHeight:true
     })
+
+    $(".close").click(function(){
+        $(".popup").hide();
+    })
+
+
 })//jQ end
